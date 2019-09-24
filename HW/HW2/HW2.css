@@ -1,0 +1,120 @@
+
+#navbarTogglerDemo03 li{
+
+    justify-content: space-between;
+}
+#navbarTogglerDemo03 ul{
+    
+    justify-content: space-between;
+}
+.nav-link{
+    margin: 0px 2em;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+.bag{
+    width:30px;
+    height:30px;
+    margin-top: 15px;
+    margin-left: 10%;
+}
+.nav{
+    display: flex;
+}
+
+.main{
+    display: grid;
+    /*grid-template-columns: repeat(3,300px);*/
+    /*height:800px;
+    grid-template-rows: 2fr 1fr 1fr 2fr;
+    */
+    grid-template-columns: repeat(2,1fr);  /*divide into three fraction*/
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+/*
+section{
+    border:solid 1px black;
+}*/
+.sectionOne{
+    grid-column: 1/span 2;
+    display:flex;
+    background-color: #eeeeee;
+    justify-content: space-between;
+    padding:30px;
+}
+.sectionTwo{
+    
+    display:flex;
+    background-color: pink;
+    justify-content: space-between;
+ 
+}
+.inner img{
+    
+    widows: 300px;
+    height:300px;
+}
+
+
+.sectionFour{
+    grid-column: 1/span 2;
+    grid-row: 3;
+    background-color: coral;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (min-width:500px){
+    .bag{
+        display:none;       
+    } 
+
+}
+
+@media screen and (max-width:500px){
+    .inner p{
+        display:none;       
+    } 
+    .main{
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+    .sectionTwo{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .sectionThree{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .sectionFour{
+        grid-column: 1;
+        grid-row: 4/span 2;
+ 
+    }
+    footer{
+        flex-direction: column;
+        background-color: #fff;
+ 
+    }
+    footer section:nth-child(1){
+        margin-bottom: 10px;
+        background-color: coral;
+    }
+    footer section:nth-child(2){
+        background-color: coral;
+    }
+}
+@media screen and (max-width:500px){
+    
+}

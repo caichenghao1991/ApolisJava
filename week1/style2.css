@@ -1,0 +1,68 @@
+/* display flex*/
+*{
+    margin:0;
+}
+nav{
+    background-color: aqua;   
+}
+.navbar{
+    height:50px;
+    display: flex;
+    justify-content: space-around; /*space-between  flex-start  center   x axis*/
+   
+    align-items: center;     /*y axis*/
+    
+}
+.leftContent,.rightContent{
+    display: flex;
+   
+}
+.leftContentItems,.rightContentItems{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    padding: 0 50px;
+    
+}
+li{
+    list-style: none;
+    border: solid 1px black;
+    width: 300px;
+}
+li.home{
+    list-style: none;
+    width:100px;
+    height:100px;
+}
+.navbarOne{
+    border: solid 1px black;
+    width:500px;
+    height:700px;
+    display: flex;  /*flex-end =block  */
+    align-content: flex-end; /*flex-end move to bottom end*/
+    flex-wrap: wrap; /*prevent unexpection caused by overflow*/
+    justify-content: space-around; /* put spacing between child contents*/
+}
+.container{
+    display: grid;
+    grid-template-rows: 40px 30px; /* row item height*/
+    grid-template-columns: 70px 80px 90px; /* column item width repeat(3,300px)*/
+    grid-gap: 5px;
+}
+ul{
+    padding:0px;
+    margin:0px;
+}
+p{
+    border:solid 1px black;
+}
+#home1{
+    grid-column: 1/span 2;  /*start at 1st column  span 2 column*/
+    margin-left: 20px;
+}
+#home2{
+    grid-row: 1/span 2;  /* start in row 1, spam 2 rows */
+    grid-column: 3; /*must appear in column 3*/
+}
+#home3{ 
+    margin-left: 20px;
+}

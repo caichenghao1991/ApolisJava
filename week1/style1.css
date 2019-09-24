@@ -1,0 +1,33 @@
+/*  html css basic */
+body{
+    width: 700px;
+    height: 1000px;
+    border: solid 1px red; 
+    background-image: url(download.jfif);
+    background-size: 700px 1000px;
+    background-repeat: no-repeat;
+    margin:0;
+}
+
+.para{
+    color:red;
+}
+
+.divOne{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;  /* center the text*/
+    
+    
+}
+
+#headerOne{
+    border: solid 2px purple;   /*dotted  border-bottom*/
+    margin: 0px 10px; /*  top/bottom  right/left     margin-left:10px; */
+    padding:10px;
+    background-color: aquamarine;
+    border-radius: 10px;  /* 10% */
+}

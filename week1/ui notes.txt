@@ -1,0 +1,77 @@
+HTML hyper text markup language
+HTML5 article footer section main 
+
+<form action="">
+    <label for="pwd">BestBuy.com Password</label>   
+		<input type="password" name="pwd">
+</form>
+#label for and name should be same
+
+#home1{
+display: flex;   # horizontal layout
+justify-content: space-around;   # equal spacing between content
+flex-wrap: wrap;    #changing size to prevent overflow
+flex-direction: column;  # change to vertical layout
+align-content: flex-end; # put all components need the end
+}
+
+.main{
+    grid-template-columns: repeat(3,1fr);  /*divide column into three fraction  define each grid width*/
+    grid-template-rows: 300px 150px 150px 300px; # define each grid row height 
+    grid-gap: 20px;   #grid spacing between content
+}
+#home2{
+    grid-row: 1/span 2;    #content start row 1 span 2 block
+    grid-column: 3;     #content must in column 3
+}    
+
+responsive web design
+css media query
+#add at the end
+@media screen and (max-width:500px){ 0-500px
+@media screen and (min-width:500px) and (max-width:1000px){
+    .sectionOne{
+        font-size: 25px;
+    }
+    #change font size between 500-1000 width size
+}
+# css have order to execute from front to bottom
+
+css preprocessors
+Less/scss  _buttons.scss
+
+Bootstrap  (bootsnipp.com)
+add css ref link
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+then paste the html code
+
+website template free download  free css
+font awesome get icons
+
+client(browser) side language: javascript
+server side language: javascript javascript
+MEAN Stack (full stack): mongodb, express js, angular, node js
+progrmamming paradigms: oop, functional, procedual (js support all)
+
+js notes in script5.js
+
+jQuery  --library -- javascript library
+--built on top of javascript  
+CDN download
+
+Ajax
+ayschronous javascript and xml
+schronous: latter code is blocked until the previous code is finished
+type of data: 2 major data interchange formats: json  xml
+
+{Emp:[
+    {emp1:{Name:'yash'}},
+    {emp1:{Name:'yash'}}
+]}
+<Emp>   
+    <emp1>
+        <name>yahs</name>
+    </emp1>
+</Emp>
