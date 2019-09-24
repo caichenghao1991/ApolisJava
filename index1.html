@@ -1,0 +1,96 @@
+<!-- html css basic -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style1.css">
+	<title>Document</title>
+</head>
+<body>
+	<p class="para">Paragraph Tag</p>
+	<span> Span Tag</span>
+	<div class="divOne">Div Tag</div>
+	<h1 id="headerOne">Header One Tag</h1>  <!--h1 to h6-->
+	<ul> Unordered list
+		<li> Chicago</li>
+		<li> New York City</li>
+	</ul>
+	<ol> Unordered list
+		<li> Chicago</li>
+		<li> New York City</li>
+	</ol>
+	<table>
+		<thead>
+			<tr >
+				<th>S.No</th>
+				<td>Name</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="2">1</td>
+				
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Tom</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!--HTML 4 style-->
+	<div class="header">
+		header content
+	</div>
+	<div class="main-content">
+			<div class="section">
+				section one
+			</div>
+	</div>
+	<div class="footer">
+		footer content
+	</div>
+
+	<!--HTML 5 style  semantic elements-->
+	<header>header content</header>
+	<article>
+		<section>section one</section>
+		<section>section two</section>
+	</article>
+	<footer>footer content</footer>
+
+	<hr> <!-- or <hr/>-->
+	<form action="" method="">  <!--method: get poest push delete-->
+		<label for="email">BestBuy.com Email Address</label> <!--need link lable name same as input name attribute-->
+		<input type="email" name="email" required>
+		<br>
+		<label for="pwd">BestBuy.com Password</label>
+		<input type="password" name="pwd">
+		<br>
+		<input type="button" value="Sign In">
+		<br>
+		<input type="number" name="" id="">
+		<br>
+		<label for="hobbies">Select hobbies</label>
+		<input type="checkbox" name="hobbies" id=""> Cycling<!-- can select multiple options-->
+		<input type="checkbox" name="hobbies" id=""> Swimming
+		<br>
+		<label for=""> Agree to terms and condition</label>
+		<input type="text" placeholder="Enter Email" name="email">
+		<input type="date">
+		<br>
+		<input type="radio" name="gender" id="">Male <!-- can only select one options-->
+		<input type="radio" name="gender" id="">Female
+		<textarea placeholder="type something" cols="20" rows="4"></textarea>
+		<br>
+
+	</form>
+	<figure>
+		<img src="elevator.png" alt="elevator">
+		<figcaption>elevator</figcaption>
+	</figure>
+	<a href="https://www.google.com"><img src="elevator.png" alt="elevator"></a>
+</body>
+</html>
