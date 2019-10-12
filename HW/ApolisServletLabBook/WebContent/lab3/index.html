@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<form action="../Lab3" method="post">
+	Firstname: <input name="firstname" required="required" min=3/>
+	<br>
+	Lastname: <input name="lastname" required="required" min=3/>
+	<br>
+	Password: <input type="password" name="password" required="required" min=3/>
+	<br>
+	Gender: <input type="radio" name="gender" value="Male"/>Male
+	 <input type="radio" name="gender" value="Female"/>Female
+	 <br>
+	 Select skill: <input type="checkbox" name="skill" value="Java"/>Java
+	 <input type="checkbox" name="skill" value=".NET"/>.NET
+	 <input type="checkbox" name="skill" value="Testing"/>Testing
+	 <input type="checkbox" name="skill" value="Mainframe"/>Mainframe
+	 <br>
+	 Select city:<select name="city"> 
+		<option value="Chicago">Chicago</option> 
+		<option value="New York">New York</option> 
+		</select> 
+	 
+	<input type="submit" value="Register"/>
+</form>
+
+</body>
+</html>
