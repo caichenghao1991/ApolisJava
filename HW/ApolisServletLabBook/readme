@@ -1,0 +1,10 @@
+lab1:   http://localhost:8081/ApolisServletLabBook/lab1/index.html
+lab2a:  http://localhost:8081/ApolisServletLabBook/lab2/index.html
+lab2b:  http://localhost:8081/ApolisServletLabBook/Lab2b
+lab3:   http://localhost:8081/ApolisServletLabBook/lab3/index.html
+lab4:   http://localhost:8081/ApolisServletLabBook/lab4/index.html
+lab5:   http://localhost:8081/ApolisServletLabBook/lab5/index.html
+lab6:   part a: It print the uri and time (in ms) consumed for the servlet in the console
+		http://localhost:8081/ApolisServletLabBook/lab6/welcome.html
+		http://localhost:8081/ApolisServletLabBook/NextPage
+		change the lab6/welcome.html form action to "post" or "get" to see the effect
